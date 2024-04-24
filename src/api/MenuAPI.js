@@ -4,7 +4,7 @@ import menus from '../data/menu-detail.json';
 
 /* JSON 파일로부터 전체 메뉴 리스트 반환 */
 export function getMenuList() {
-    return menus;   // json으로 파싱된 데이터를 반환한다.
+    return Promise.resolve(menus);   // json으로 파싱된 데이터를 반환한다.
     console.log(menus);
 }
 

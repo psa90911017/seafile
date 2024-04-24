@@ -183,10 +183,10 @@
 	},
 	{
 	   "menuCode" : 27, 
-		"menuName" : "치즈베이컨랩",
+		"menuName" : "치킨베이컨랩",
 		"categoryName" : "샌드위치",
 		"description" : "닭가슴살과 스크램블 에그, 베이컨, 스위스 치즈에 매콤한 할라피뇨 마요 소스를 더해 감칠맛을 살린 랩입니다.",
-		"image" : "/images/치즈베이컨랩.png"
+		"image" : "/images/치킨베이컨랩.png"
 	},
 	{
 	   "menuCode" : 28, 
