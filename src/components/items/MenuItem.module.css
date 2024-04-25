@@ -1,0 +1,48 @@
+/* MenuItem.module.css */
+
+.linkStyle {
+    text-decoration: none; /* 링크 밑줄 제거 */
+	color: #1A264B;
+}
+
+
+.menuItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	justify-content: center; /* 추가: 컨텐츠를 수직 방향 중앙에 위치시키기 */
+    width: 250px; /* 너비 유지 */
+    height: 200px; /* 높이 유지 */
+    border: 2px solid #1A264B;
+    border-radius: 10px;
+    background-color: white;
+    padding: 15px;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+	cursor: pointer; /* 커서가 포인터로 변경 */
+    transition: background-color 0.3s; /* 부드러운 색상 전환 효과 */
+}
+
+.menuItem:hover {
+    background-color: #1A264B; /* 호버 시 배경 색상 변경 */
+}
+
+.menuImage {
+    width: 65%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 3px;
+    transition: transform 0.3s; /* 이미지 확대/축소 효과 */
+}
+
+.menuImage:hover {
+    transform: scale(1.1); /* 호버 시 이미지 확대 */
+}
+
+.menuText {
+    width: 100%;
+    margin-top: 10px;
+	margin-bottom: 50px;
+    font-size: 15px;
+    text-align: center;
+}
